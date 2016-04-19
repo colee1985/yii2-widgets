@@ -1,0 +1,30 @@
+{
+      "name": "colee/yii2-widgets",
+      "type": "library",
+      "description": "widgets library for Yii2 framework",
+      "keywords": [
+          "yii2",
+          "colee",
+          "yii2-widgets"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/colee1985/yii2-widgets",
+      "minimum-stability": "dev",
+      "authors": [
+          {
+              "name": "colee",
+              "email": "5969226@qq.com",
+              "issues": "https://github.com/colee1985/yii2-widgets/issues?state=open",
+              "source": "https://github.com/colee1985/yii2-widgets"
+          }
+      ],
+      "require": {
+          "php" : "~5.5|~7.0",
+          "yiisoft/yii2":"*"
+      },
+      "autoload": {
+          "psr-4": {
+              "colee\\widgets\\": ""
+          }
+      }
+  }
